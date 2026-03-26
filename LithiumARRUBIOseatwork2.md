@@ -1,0 +1,4 @@
+1. It pushes the element relative to its original position. For example, if i change top to 50px, it goes down by 50px and if i change left to 30px, it pushes the element to the right by 30px.
+2. When I scroll, the element stays in its stuck position on the screen while the content moves behind it. The footer behaves differently because position relative bases it on the original position of the element, while position fixed relies on the whole screen. 
+3. The position absolute allows the user to position the element in another element. Compared to position fixed, it follows the position of another element and does not stay in place.
+4. The notice appears in front of the content because it contains a higher z-value. It acts as a layering control, and when swapped z-values, the content overlaps the notice.
